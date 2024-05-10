@@ -1,0 +1,3 @@
+function e(){(window.innerWidth||document.documentElement.clientWidth)>1280?window.swiperInstance&&(window.swiperInstance.destroy(),window.swiperInstance=null):window.swiperInstance||(window.swiperInstance=new Swiper(".mySwiper",{slidesPerView:1,spaceBetween:20,slidesPerGroup:1,loop:!0,centerSlide:!0,grabCursor:!0,fade:!0,autoplay:{delay:4e3,disableOnInteraction:!1,waitForTransition:!0},pauseOnMouseEnter:!0,pauseOnMouseLeave:!0,pagination:{el:".swiper-pagination",clickable:!0,dynamicsBullets:!0},breakpoints:{768:{slidesPerView:2}}}))}e(),window.addEventListener("resize",function(){e()});//# sourceMappingURL=index.91278395.js.map
+
+//# sourceMappingURL=index.91278395.js.map
